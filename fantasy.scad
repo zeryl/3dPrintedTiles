@@ -20,7 +20,8 @@
 
 
 // Random seed (for testing in OpenSCAD)
-seed=round(rands(1,1000000,1)[0]); // random seed
+seed=0;
+//seed=round(rands(1,1000000,1)[0]); // random seed
 echo (str("Seed: ",seed)); 
 
 
